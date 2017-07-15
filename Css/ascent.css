@@ -1,0 +1,235 @@
+body {
+margin-left:0px;
+margin-right:0px;
+margin-top:0px;
+margin-bottom:0px;
+background-image:url(../Images/topbg.jpg);
+background-repeat:repeat-x;
+background-color:#0CF;
+}
+
+.testimonals_bg {
+	background-image:url(../Images/testimonals.html);
+	background-repeat:no-repeat;
+}
+.br {
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+}
+.br1 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+}
+.br2 {
+	border: 1px solid #CCC;
+}
+.h1 {
+	font-family:"Arial", Helvetica, sans-serif;
+	font-size:16px;
+	text-align:left;
+	text-decoration:none;
+	font-weight:bold;
+	color:#09F;
+}
+.h2 {
+	background-image:url(../Images/h1.jpg);
+	background-repeat:no-repeat;
+	font-family:"Arial", Helvetica, sans-serif;
+	font-size:16px;
+	text-align:left;
+	text-decoration:none;
+	font-weight:bold;
+	color:#FFFFFF;
+	padding-left:20px;
+}
+.bodytxt {
+	font-family:"Tahoma", Geneva, sans-serif;
+	font-size:12px;
+	text-align:justify;
+	text-decoration:none;
+	font-weight:none;
+	color:#000000;
+	line-height:22px;	
+}
+
+.txt_n{
+	font-family:"Tahoma", Geneva, sans-serif;
+	font-size:12px;
+	text-decoration:none;
+	font-weight:none;
+	color:#000000;
+	line-height:22px;	
+}
+
+.bodytxt1 {
+	font-family:"Tahoma", Geneva, sans-serif;
+	font-size:12px;
+	text-align:justify;
+	text-decoration:none;
+	font-weight:none;
+	color:#bebebe;
+	line-height:22px;	
+}
+.bottom_menu {
+	font-family:"Tahoma", Geneva, sans-serif;
+	font-size:12px;
+	text-align:left;
+	text-decoration:none;
+	font-weight:none;
+	color:#bebebe;
+}
+.bottom_menu1 {
+	font-family:"Tahoma", Geneva, sans-serif;
+	font-size:12px;
+	text-align:left;
+	text-decoration:none;
+	font-weight:none;
+	color:#bebebe;
+}
+.bottom_menu1:hover {
+	font-family:"Tahoma", Geneva, sans-serif;
+	font-size:12px;
+	text-align:left;
+	text-decoration:underline;
+	font-weight:none;
+	color:#FFFFFF;
+}
+.sub_menu {
+	font-family:"Tahoma", Geneva, sans-serif;
+	font-size:12px;
+	text-align:left;
+	text-decoration:none;
+	font-weight:normal;
+	color:#000000;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+}
+.sub_menu1 {
+	font-family:"Tahoma", Geneva, sans-serif;
+	font-size:12px;
+	text-align:left;
+	text-decoration:none;
+	font-weight:normal;
+	color:#000000;
+}
+.sub_menu1:hover {
+	font-family:"Tahoma", Geneva, sans-serif;
+	font-size:12px;
+	text-align:left;
+	text-decoration:none;
+	font-weight:normal;
+	color:#f57d22;
+}
+.sub_menu2 {
+	font-family:"Tahoma", Geneva, sans-serif;
+	font-size:12px;
+	text-align:left;
+	text-decoration:none;
+	font-weight:normal;
+	color:#f57d22;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+}
+.sub_menu3 {
+	font-family:"Tahoma", Geneva, sans-serif;
+	font-size:12px;
+	text-align:left;
+	text-decoration:none;
+	font-weight:normal;
+	color:#f57d22;
+}
+.br {
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-left-color: #CCC;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+}
+.br1 {
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-left-color: #CCC;
+}
+.br12 {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-left-color: #CCC;
+}
+.br13 {
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+}
+.br14 {
+	border: 1px solid #CCC;
+}
+.menu {
+	font-family:"Tahoma", Geneva, sans-serif;
+	font-size:13px;
+	text-decoration:none;
+	font-weight:none;
+	color:#FFF;
+	line-height:22px;	
+	font-weight:bold;
+	text-align:center	
+}
+.menu:hover
+{
+	font-family:"Tahoma", Geneva, sans-serif;
+	font-size:13px;
+	text-decoration:none;
+	font-weight:none;
+	color:#FF0;
+	line-height:22px;	
+	font-weight:bold;
+	text-decoration:underline;
+	text-align:center
+}
+.menuyellow
+{
+	font-family:"Tahoma", Geneva, sans-serif;
+	font-size:13px;
+	text-decoration:none;
+	font-weight:none;
+	color:#FF0;
+	line-height:22px;	
+	font-weight:bold;
+	text-decoration:underline;
+	text-align:center
+}
