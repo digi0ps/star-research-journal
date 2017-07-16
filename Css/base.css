@@ -23,6 +23,10 @@ body {
   transition: color 250ms ease-in;
 }
 
+.table-link {
+  color: #000;
+}
+
 .page-footer {
   background-color: #4CAF50;
   padding: 10px;
