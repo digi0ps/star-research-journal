@@ -9,11 +9,12 @@ body {
 
 .navbar{
   height:75px;
-  background-color: #fff;
+  background-color: #4CAF50;
 }
 
 .nav-links {
-  color: black;
+  color: white;
+  font-size: 18px;
 }
 
 .nav-links:hover {
@@ -40,7 +41,17 @@ body {
 }
 
 .brand-logo {
-  margin-top: 5px;
+  text-align: center;
+}
+.brand-logo h4{
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.brand-logo h5 {
+  font-size: 15px;
+  margin-bottom: 3px;
+  padding: 0;
 }
 
 .intro {
