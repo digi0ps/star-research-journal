@@ -7,11 +7,7 @@ from pprint import pprint
 
 
 def viewy(request):
-    rows = {"rows": [{
-      "content": '<span class="txt_n">Effect of Pre-Season Training on Selected Skill Performance of Inter Collegiate Football Players</span><br /><span class="txt_n"><strong>Dr.T. Radhakrishnan</strong></span>',
-      'url': '#'
-    }]}
-    return render(request, "archive.html", rows)
+    return render(request, "PublicationCharges.html")
 
 
 def render_the_shit_html(filename, filey):
@@ -50,9 +46,9 @@ def render_the_shit_html(filename, filey):
 
 
 def go_through_the_shit_files(request):
-    files = os.listdir('/Users/digiops/Desktop/www.starresearchjournal.com')
+    files = os.listdir('/Users/digiops/Desktop/www.starresearchjournal.com2')
     for file in files:
         if re.match(r'20.+\.html', file):
-            render_the_shit_html('/Users/digiops/Desktop/www.starresearchjournal.com/'+file, file)
+            render_the_shit_html('/Users/digiops/Desktop/www.starresearchjournal.com2/'+file, file)
 
 

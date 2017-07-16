@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
-<table class="centered bordered responsive-table">
+<table class="centered bordered responsive-table" style="font-size:15px;">
 <thead>
   <tr>
       <th>S.no</th>
@@ -14,7 +14,7 @@
   <tr>
     <td>{{ forloop.counter }}</td>
     <td>{{ row.content|safe }}</td>
-    <td><a href="{{ row.url }}" target="_blank">Download</a></td>
+    <td><a class="table-link" href="{{ row.url }}"><i class="material-icons">picture_as_pdf</i></a></td>
   </tr>
 {% endfor %}
 </tbody>

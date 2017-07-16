@@ -19,7 +19,7 @@ body {
 
 .nav-links:hover {
   background-color: transparent;
-  color: #FE5900;
+  color: #000;
   transition: color 250ms ease-in;
 }
 

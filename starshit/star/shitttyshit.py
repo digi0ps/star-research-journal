@@ -4,7 +4,7 @@ from django.template.loader import render_to_string
 from pprint import pprint
 
 
-def render_the_shit_html(filename):
+def render_the_shit_html(filename, filey):
     file = open(filename, 'r')
     soup = BeautifulSoup(file.read(), 'html.parser')
 
@@ -31,15 +31,18 @@ def render_the_shit_html(filename):
     context_ = {
         'rows': rows
     }
-    html = render_to_string('main/templates/archive.html', context_)
-    print(html)
+    html = render_to_string('archive.html', context_)
+    wfilename = '/Users/digiops/Desktop/www.starresearchjournal.com/output'+filey
+    wfile = file(wfilename, 'w')
+    wffile.write(html)
+    wfile.close()
+    file.close()
 
 
 def go_through_the_shit_files():
-    os.chdir('/Users/digiops/Desktop/www.starresearchjournal.com')
-    files = os.listdir()
+    files = os.listdir('/Users/digiops/Desktop/www.starresearchjournal.com2')
     for file in files:
         if re.match(r'20.+\.html', file):
-            render_the_shit_html(file)
+            render_the_shit_html('/Users/digiops/Desktop/www.starresearchjournal.com2'+file, file)
 
 go_through_the_shit_files()
