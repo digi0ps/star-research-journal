@@ -1,5 +1,7 @@
 from bs4 import BeautifulSoup
 import os, re
+from django.template.loader import render_to_string
+from pprint import pprint
 
 
 def render_the_shit_html(filename):
@@ -9,21 +11,28 @@ def render_the_shit_html(filename):
     table_header = soup.find("td", class_="h1").text
 
     tds = soup.find_all('td', class_='br1')
-    all_spans = []
-
+    rows = []
     for td in tds:
-        spans = 0
+        row = 0
+        url = '#'
         if td.find('span', class_='txt_n'):
-            spans = td.find_all('span', class_='txt_n')
-            spans = list(map(str, spans))
-            spans = "<br />".join(spans)
-        if spans:
-            all_spans.append(spans)
-
-    f = open("output/"+filename, 'w')
-    f.write('\n\n'.join(all_spans))
-    f.close()
-    file.close()
+            row = td.find_all('span', class_='txt_n')
+            row = list(map(str, row))
+            row = "<br />".join(row)
+        for link in tds[5].next_siblings:
+            if link.find('a') and link.find('a') != -1:
+                url = link.find('a')['href']
+        if row:
+            context = {
+                'content': row,
+                'url': url
+            }
+            rows.append(context)
+    context_ = {
+        'rows': rows
+    }
+    html = render_to_string('main/templates/archive.html', context_)
+    print(html)
 
 
 def go_through_the_shit_files():

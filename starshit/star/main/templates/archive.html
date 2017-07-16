@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<table class="centered bordered responsive-table">
+<thead>
+  <tr>
+      <th>S.no</th>
+      <th>Title/Authors</th>
+      <th>Download</th>
+  </tr>
+</thead>
+
+<tbody>
+{% for row in rows %}
+  <tr>
+    <td>{{ forloop.counter }}</td>
+    <td>{{ row.content|safe }}</td>
+    <td><a href="{{ row.url }}" target="_blank">Download</a></td>
+  </tr>
+{% endfor %}
+</tbody>
+</table>
+{% endblock content %}
