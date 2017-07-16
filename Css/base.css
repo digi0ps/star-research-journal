@@ -25,6 +25,11 @@ body {
 
 .table-link {
   color: #000;
+  transition: color 250ms ease-in;
+}
+
+.table-link:hover {
+  color: #ff0b0b;
 }
 
 .page-footer {
@@ -46,6 +51,8 @@ body {
 
 .brand-logo {
   text-align: center;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 .brand-logo h4{
   font-size: 25px;
